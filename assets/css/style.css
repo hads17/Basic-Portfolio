@@ -11,30 +11,22 @@ body {
 
 h1,h2 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	color: #4aaaa5;
+}
+
+#headerbox {
+
 }
 
 .header {
-	background: #ffffff;
-	margin-top: 0px;
-	padding: 40px;
-	overflow: auto;
-	margin-bottom: 0px;
-	height: 8%;
-
-
+	background: white;
+	padding: 50px;
 }
 
 #name {
+	position: relative;
+
+	color: white;
 	background: #4aaaa5;
-	width: 20%;
-	height: 8%;
-	float:left;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	text-align: center;
-	padding: 5px;
-	overflow: auto;
 }
 
 .aboutheader {
@@ -51,4 +43,4 @@ h1,h2 {
 
 .headername {
 	color: white;
-}
+}v
