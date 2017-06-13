@@ -13,34 +13,87 @@ h1,h2 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-#headerbox {
+a {
+	color: #777777;
+	text-decoration: none;
+	opacity: 20%;
+}
 
+.headerbox {
+	background: white;
+	float: left;
+	padding: 50px;
+	width: 170px;
 }
 
 .header {
 	background: white;
 	padding: 50px;
+	margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
 }
 
 #name {
 	position: relative;
-
+	float: left;
 	color: white;
 	background: #4aaaa5;
+	padding:5px;
 }
 
 .aboutheader {
 	float: right;
+	border-width: 0px 1px 0px 0px;
+	border-style: solid;
+	border-color: #cccccc;
+	padding: 0px 5px 0px 0px;
+	color: #777777;
 }
 
 .portfolioheader {
 	float: right;
+	border-width: 0px 1px 0px 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	padding: 0px 5px 0px 5px;
+	color: #777777;
 }
 
 .contactheader {
 	float: right;
+	border-width: 0px 0px 0px 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	padding: 0px 20px 0px 5px;
+	color: #777777;
 }
 
 .headername {
 	color: white;
-}v
+}
+
+.content {
+	width: 650px;
+	background: #ffffff;
+	margin-top: 50px;
+	margin-left: 270px;
+	float: left;
+	padding: 25px;
+}
+#connect {
+	background: #ffffff;
+	margin-top: 50px;
+	float: right;
+}
+
+#profilepicture {
+	width: 225px;
+	height: 150px;
+	float: left;
+}
+
+#contentparagraph {
+	float: left;
+}
