@@ -20,9 +20,11 @@ a {
 	opacity: 20%;
 }
 
-#container {
+.container {
 	margin: 0px 270px;
 }
+
+.headerwrap
 
 .header {
 	background: white;
@@ -32,11 +34,13 @@ a {
 	height: 20%;
 }
 
-#name {
+.name {
 	color: white;
 	background: #4aaaa5;
 	padding: 5.5px;
-
+	width: 14%;
+	margin-left: 270px;
+	text-align: center;
 }
 
 .aboutheader {
@@ -84,7 +88,7 @@ a {
 	border-color: #cccccc;
 	margin-bottom: 50px
 }
-#connect {
+.connect {
 	background: #ffffff;
 	margin-top: 50px;
 	float: right;
@@ -94,17 +98,17 @@ a {
 	padding: 25px;
 }
 
-#profilepicture {
+.profilepicture {
 	width: 225px;
 	height: 150px;
 	float: left;
 }
 
-#contentparagraph {
+.contentparagraph {
 	float: left;
 }
 
-#marginbox2 {
+.marginbox2 {
 	display: block;
 	padding: 135px;
 	float: right;
@@ -117,18 +121,19 @@ a {
 	border-color: #4aaaa5;
 	clear: both;
 	margin-top: 50px;
+	text-align: center;
 }
 
-#portfolio1 {
+.portfolio1 {
 	float: left;
 	overflow: hidden;
 }
 
-#portfolio2 {
+.portfolio2 {
 
 }
 
-#portfolio3 {
+.portfolio3 {
 
 }
 
