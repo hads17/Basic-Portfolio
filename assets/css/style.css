@@ -12,6 +12,7 @@ body {
 
 h1,h2 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 24px
 }
 
 a {
@@ -134,3 +135,15 @@ a {
 	text-align: center;
 }
 
+.inputname {
+	width: 37vw
+}
+
+.inputemail {
+	width: 37vw;
+}
+
+.inputmessage {
+	width: 37vw;
+	height: 44vh;
+}
